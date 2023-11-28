@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-28T12:31:23 IST" name="Default suite" finished-at="2023-11-28T12:31:23 IST" duration-ms="176">
+    <groups>
+    </groups>
+    <test started-at="2023-11-28T12:31:23 IST" name="Default test" finished-at="2023-11-28T12:31:23 IST" duration-ms="176">
+      <class name="org.hrm.employee.TestScript_Employee_Test">
+        <test-method signature="generateEmpId_1_Test()[pri:0, instance:org.hrm.employee.TestScript_Employee_Test@689604d9]" started-at="2023-11-28T12:31:23 IST" name="generateEmpId_1_Test" finished-at="2023-11-28T12:31:23 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateEmpId_1_Test -->
+      </class> <!-- org.hrm.employee.TestScript_Employee_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

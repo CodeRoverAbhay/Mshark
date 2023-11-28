@@ -1,4 +1,4 @@
-package org.practice.testscript;
+package org.hrm.admin;
 
 import org.testng.annotations.Test;
 
