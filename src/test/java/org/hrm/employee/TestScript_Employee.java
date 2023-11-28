@@ -1,9 +1,9 @@
 package org.hrm.employee;
 
-import org.practice.generic.JavaUtils;
+import org.hrm.generic.JavaUtils;
 import org.testng.annotations.Test;
 
-public class TestScript_Employee_1_Test {
+public class TestScript_Employee {
 	JavaUtils juObj = new JavaUtils();
 
 	@Test
