@@ -1,4 +1,4 @@
-package org.practice.generic;
+package org.hrm.generic;
 
 import java.util.Random;
 
