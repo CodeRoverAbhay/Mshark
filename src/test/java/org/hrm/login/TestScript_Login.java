@@ -8,13 +8,14 @@ import org.testng.annotations.Test;
 public class TestScript_Login {
 	WebDriver driver = new ChromeDriver();
 
-	@Test
-	public void login_1_Test() {
+	@Test (priority = 1)
+	public void login_1_Test() throws InterruptedException {
 		WebDriverUtils wuObj = new WebDriverUtils();
-		wuObj.launchTheBrowser(driver, "http://localhost:8080");
+		wuObj.launchTheBrowser(driver, "https://www.bing.com");
+		Thread.sleep(4000);
 	}
 	
-	@Test
+	@Test (priority = 2)
 	public void closeBrowser() {
 		WebDriverUtils wuObj = new WebDriverUtils();
 		wuObj.closeTheBrowser(driver);
