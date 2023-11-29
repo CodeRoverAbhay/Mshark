@@ -13,6 +13,7 @@ public class TestScript_Login {
 		WebDriverUtils wuObj = new WebDriverUtils();
 		wuObj.launchTheBrowser(driver, "https://www.bing.com");
 		Thread.sleep(4000);
+		driver.quit();
 	}
 
 }
