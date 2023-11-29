@@ -86,9 +86,9 @@
 		</dependency>
 	</dependencies>
 
-	<profiles>
+	<!--<profiles>
 		<profile>
-			<id>regression</id>
+			<id></id>
 			<build>
 				<pluginManagement>
 					<plugins>
@@ -98,7 +98,7 @@
 							<version>3.0.0-M5</version>
 							<configuration>
 								<suiteXmlFiles>
-									<suiteXmlFile>/Maven/testng/mavenregression.xml</suiteXmlFile>
+									<suiteXmlFile>alltest.xml</suiteXmlFile>
 								</suiteXmlFiles>
 							</configuration>
 						</plugin>
@@ -106,7 +106,7 @@
 				</pluginManagement>
 			</build>
 		</profile>
-	</profiles>
+	</profiles> -->
 	
 	<!-- <build>
 		<plugins>
