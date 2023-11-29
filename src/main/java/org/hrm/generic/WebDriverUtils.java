@@ -7,9 +7,4 @@ public class WebDriverUtils {
 		driver.manage().window().maximize();
 		driver.get(URL);
 	}
-	
-	public void closeTheBrowser(WebDriver driver) {
-		driver.manage().window().minimize();
-		driver.quit();
-	}
 }

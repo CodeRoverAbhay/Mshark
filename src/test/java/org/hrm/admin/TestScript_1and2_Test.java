@@ -1,15 +1,16 @@
 package org.hrm.admin;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class TestScript_1and2_Test {
 	@Test(groups = "smoke")
 	public void ts_1_test() {
-		System.out.println("Test Script 1");
+		Reporter.log("Test Script 1", true);
 	}
 
 	@Test(groups = "regression")
 	public void ts_2_test() {
-		System.out.println("Test Script 2");
+		Reporter.log("Test Script 2", true);
 	}
 }
