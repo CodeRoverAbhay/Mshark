@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class TestScript_Login {
+public class TestScript_Login_Test {
 	WebDriver driver = new ChromeDriver();
 
 	@Test

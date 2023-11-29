@@ -3,9 +3,9 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="org.hrm.login.TestScript_Login"/>
+      <class name="org.hrm.login.TestScript_Login_Test"/>
       <class name="org.hrm.admin.TestScript_1and2_Test"/>
-      <class name="org.hrm.employee.TestScript_Employee"/>
+      <class name="org.hrm.employee.TestScript_Employee_Test"/>
       <class name="org.hrm.admin.TestScript_3and4_Test"/>
     </classes>
   </test> <!-- Test -->

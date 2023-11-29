@@ -4,7 +4,7 @@ import org.hrm.generic.JavaUtils;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class TestScript_Employee {
+public class TestScript_Employee_Test {
 	JavaUtils juObj = new JavaUtils();
 
 	@Test
