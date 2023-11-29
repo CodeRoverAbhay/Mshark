@@ -14,10 +14,5 @@ public class TestScript_Login {
 		wuObj.launchTheBrowser(driver, "https://www.bing.com");
 		Thread.sleep(4000);
 	}
-	
-	@Test (priority = 2)
-	public void closeBrowser() {
-		WebDriverUtils wuObj = new WebDriverUtils();
-		wuObj.closeTheBrowser(driver);
-	}
+
 }
