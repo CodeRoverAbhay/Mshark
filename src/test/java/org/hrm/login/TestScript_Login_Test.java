@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class TestScript_Login_Test {
 	WebDriver driver = new ChromeDriver();
 
-	@Test
+	@Test(groups = "regression")
 	public void login_1_Test() throws InterruptedException {
 		WebDriverUtils wuObj = new WebDriverUtils();
 		wuObj.launchTheBrowser(driver, "https://www.bing.com");
