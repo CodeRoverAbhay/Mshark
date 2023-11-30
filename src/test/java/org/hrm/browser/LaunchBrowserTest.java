@@ -2,14 +2,14 @@ package org.hrm.browser;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LaunchBrowserTest {
 	WebDriver driver;
 
-	@Test
+	@BeforeTest
 	public void launchBrowserTest() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
