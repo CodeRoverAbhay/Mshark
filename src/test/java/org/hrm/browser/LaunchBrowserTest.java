@@ -12,5 +12,6 @@ public class LaunchBrowserTest {
 		driver = new ChromeDriver();
 		driver.get("https://www.bing.com");
 		System.out.println("Driver is launched.");
+		driver.quit();
 	}
 }
