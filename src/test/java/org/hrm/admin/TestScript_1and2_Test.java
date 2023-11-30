@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class TestScript_1and2_Test extends BaseTest{
 	@Test(groups = "smoke")
 	public void ts_1_test() {
-		
+		System.out.println("Browser launched successfully.");
 		Reporter.log("Test Script 1", true);
 	}
 
