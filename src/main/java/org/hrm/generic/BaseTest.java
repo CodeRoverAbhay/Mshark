@@ -5,13 +5,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
-import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	WebDriver driver;
-	@Test
+	@BeforeTest
 	public void launchBrowserTest() {
 		String BROWSER = System.getProperty("browser");
 		String URL = System.getProperty("url");
