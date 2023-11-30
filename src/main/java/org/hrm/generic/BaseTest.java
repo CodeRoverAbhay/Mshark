@@ -7,6 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BaseTest {
 	WebDriver driver;
 	@Test
@@ -14,15 +16,19 @@ public class BaseTest {
 		String BROWSER = System.getProperty("browser");
 		String URL = System.getProperty("url");
 		if (BROWSER.equalsIgnoreCase("chrome")) {
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			Reporter.log("Crome Driver is Launched Successfully.", true);
 		} else if (BROWSER.equalsIgnoreCase("edge")) {
+			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 			Reporter.log("Edge Driver is Launched Successfully.", true);
 		} else if (BROWSER.equalsIgnoreCase("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			Reporter.log("Firefox Driver is Launched Successfully.", true);
 		} else {
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			Reporter.log("Default Crome Driver is Launched Successfully.", true);
 		}
