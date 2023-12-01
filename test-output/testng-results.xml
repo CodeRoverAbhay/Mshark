@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-29T13:11:47 IST" name="Default suite" finished-at="2023-11-29T13:11:54 IST" duration-ms="6689">
+  <suite started-at="2023-11-30T22:09:00 IST" name="Default suite" finished-at="2023-11-30T22:09:08 IST" duration-ms="7599">
     <groups>
     </groups>
-    <test started-at="2023-11-29T13:11:47 IST" name="Default test" finished-at="2023-11-29T13:11:54 IST" duration-ms="6689">
-      <class name="org.hrm.login.TestScript_Login">
-        <test-method signature="login_1_Test()[pri:1, instance:org.hrm.login.TestScript_Login@599f571f]" started-at="2023-11-29T13:11:47 IST" name="login_1_Test" finished-at="2023-11-29T13:11:52 IST" duration-ms="5104" status="PASS">
+    <test started-at="2023-11-30T22:09:00 IST" name="Default test" finished-at="2023-11-30T22:09:08 IST" duration-ms="7599">
+      <class name="org.hrm.browser.LaunchBrowserTest">
+        <test-method signature="launchBrowserTest()[pri:0, instance:org.hrm.browser.LaunchBrowserTest@59474f18]" started-at="2023-11-30T22:09:01 IST" name="launchBrowserTest" finished-at="2023-11-30T22:09:08 IST" duration-ms="7459" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_1_Test -->
-        <test-method signature="closeBrowser()[pri:2, instance:org.hrm.login.TestScript_Login@599f571f]" started-at="2023-11-29T13:11:52 IST" name="closeBrowser" finished-at="2023-11-29T13:11:54 IST" duration-ms="1454" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- org.hrm.login.TestScript_Login -->
+        </test-method> <!-- launchBrowserTest -->
+      </class> <!-- org.hrm.browser.LaunchBrowserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
